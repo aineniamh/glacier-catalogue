@@ -76,6 +76,23 @@
   },
   "sections": [
     {
+      "name": "workshop",
+      "description": "Workflows for ARTIC LHF Workshop 2026",
+      "icon": "artic.png",
+      "workflows": [
+        {
+          "name": "amplicon-nf",
+          "repo": "artic-network/amplicon-nf",
+          "version": "latest"
+        },
+        {
+          "name": "raccoon-nf",
+          "repo": "Desperate-Dan/raccoon-nf",
+          "version": "0.0.1"
+        }
+      ]
+    },
+    {
       "name": "general",
       "description": "General workflows for ARTIC activities",
       "icon": "artic.png",
