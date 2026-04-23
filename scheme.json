@@ -4,39 +4,39 @@ export const themeOptions: ThemeOptions = {
   palette: {
     mode: 'light',
     primary: {
-      main: '#005B68',
+      main: '#e5d5d9',
       dark: '#033940',
       light: '#19A699',
-      contrastText: '#F2F1E6',
+      contrastText: '#d3d7e9',
     },
     secondary: {
       main: '#BF4B43',
       light: '#E06961',
-      contrastText: '#F7EECA',
+      contrastText: '#c687ac',
     },
     background: {
       default: '#e6d595',
-      paper: '#f7eeca',
+      paper: '#c687ac',
     },
     error: {
-      main: '#d95a47',
-      contrastText: '#F2F1E6',
+      main: '#804441',
+      contrastText: '#d3d7e9',
     },
     warning: {
       main: '#F6A14C',
-      contrastText: '#F2F1E6',
+      contrastText: '#d3d7e9',
     },
     info: {
       main: '#016E85',
-      contrastText: '#F2F1E6',
+      contrastText: '#d3d7e9',
     },
     success: {
       main: '#40847D',
-      contrastText: '#F2F1E6',
+      contrastText: '#d3d7e9',
     },
-    divider: '#02292E',
+    divider: '#7985bc',
     text: {
-      primary: '#02292E',
+      primary: '#7985bc',
       secondary: '#BF4B43',
       disabled: '#5A5F62',
     },
