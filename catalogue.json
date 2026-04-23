@@ -1,60 +1,60 @@
 {
-  "name": "ARTIC-network",
-  "description": "ARTIC network is a project funded by the Wellcome Trust for outbreak and epidemic response through genomic epidemiology.",
+  "name": "Aine O'Toole",
+  "description": "Tools and workflows for genomic epidemiology",
   "icon": "artic.png",
   "scheme": {
-    "background": "#F2F1E6",
-    "foreground": "#02292E",
+    "background": "#d3d7e9",
+    "foreground": "#7985bc",
     "font-family": "Helvetica Neue Light, Helvetica, sans-serif",
     "font-size": "12px",
-    "title-background": "#005B68",
-    "title-foreground": "#F7EECA",
+    "title-background": "#e5d5d9",
+    "title-foreground": "#c687ac",
     "title-font-family": "Helvetica Neue Thin, Helvetica, sans-serif",
     "title-font-size": "18px",
-    "project-background": "#F7EECA",
-    "project-foreground": "#02292E",
-    "project-title-background": "#015C68",
-    "project-title-foreground": "#21968B"
+    "project-background": "#e5d5d9",
+    "project-foreground": "#c687ac",
+    "project-title-background": "#d3d7e9",
+    "project-title-foreground": "#7985bc"
   },
   "materialTheme": {
     "palette": {
       "mode": "light",
       "primary": {
-        "main": "#005B68",
+        "main": "#e5d5d9",
         "dark": "#033940",
         "light": "#19A699",
-        "contrastText": "#F2F1E6"
+        "contrastText": "#d3d7e9"
       },
       "secondary": {
         "main": "#BF4B43",
         "light": "#E06961",
-        "contrastText": "#F7EECA"
+        "contrastText": "#c687ac"
       },
       "background": {
         "default": "#e6d595",
-        "paper": "#f7eeca"
+        "paper": "#c687ac"
       },
       "error": {
         "main": "#d95a47",
-        "contrastText": "#F2F1E6"
+        "contrastText": "#d3d7e9"
       },
       "warning": {
         "main": "#F6A14C",
-        "contrastText": "#F2F1E6"
+        "contrastText": "#d3d7e9"
       },
       "info": {
         "main": "#016E85",
-        "contrastText": "#F2F1E6"
+        "contrastText": "#d3d7e9"
       },
       "success": {
         "main": "#40847D",
-        "contrastText": "#F2F1E6"
+        "contrastText": "#d3d7e9"
       },
-      "divider": "#02292E",
+      "divider": "#7985bc",
       "text": {
-        "primary": "#02292E",
-        "secondary": "#BF4B43",
-        "disabled": "#5A5F62"
+        "primary": "#000000",
+        "secondary": "#000000",
+        "disabled": "#000000"
       }
     },
     "typography": {
@@ -63,7 +63,7 @@
     "overrides": {
       "MuiAppBar": {
         "colorInherit": {
-          "backgroundColor": "#689f38",
+          "backgroundColor": "#d3d7e9",
           "color": "#fff"
         }
       }
@@ -76,36 +76,36 @@
   },
   "sections": [
     {
-      "name": "workshop",
-      "description": "Workflows for ARTIC LHF Workshop 2026",
-      "icon": "artic.png",
+      "name": "phylogenetics",
+      "description": "Workflows for phylogenetic analysis of viral genomes",
+      "icon": "raccoon_logo.png",
       "workflows": [
         {
-          "name": "amplicon-nf",
-          "repo": "artic-network/amplicon-nf",
+          "name": "raccoon-nf",
+          "repo": "artic-network/raccoon-nf",
           "version": "latest"
         },
         {
-          "name": "raccoon-nf",
-          "repo": "Desperate-Dan/raccoon-nf",
+          "name": "snipit",
+          "repo": "aineniamh/snipit",
           "version": "latest"
         }
       ]
     },
     {
-      "name": "general",
-      "description": "General workflows for ARTIC activities",
-      "icon": "artic.png",
+      "name": "SARS-CoV-2",
+      "description": "Workflows for SARS-CoV-2 analysis",
+      "icon": "pangolin.png",
       "workflows": [
         {
-          "name": "amplicon-nf",
-          "repo": "artic-network/amplicon-nf",
+          "name": "pangolin-nf",
+          "repo": "cov-lineages/pangolin",
           "version": "latest"
         },
         {
-          "name": "amplicon-nf",
-          "repo": "artic-network/amplicon-nf",
-          "version": "0.6.1"
+          "name": "civet-nf",
+          "repo": "artic-network/civet",
+          "version": "latest"
         }
       ]
     },
@@ -114,17 +114,12 @@
       "description": "Workflows for Mpox virus",
       "icon": "mpxv.png",
       "scheme": {
-        "project-background": "#F7EECA",
-        "project-foreground": "#005B68",
+        "project-background": "#c687ac",
+        "project-foreground": "#e5d5d9",
         "project-title-background": "#BF4B43",
         "project-title-foreground": "#E6D595"
       },
       "workflows": [
-        {
-          "name": "amplicon-nf",
-          "repo": "artic-network/amplicon-nf",
-          "version": "latest"
-        },
         {
           "name": "squirrel-nf",
           "repo": "artic-network/squirrel-nf"
