@@ -1,10 +1,10 @@
 {
-  "name": "Aine O'Toole",
+  "name": "Áine's repositories",
   "description": "Tools and workflows for genomic epidemiology",
-  "icon": "artic.png",
+  "icon": "tools.png",
   "scheme": {
-    "background": "#d3d7e9",
-    "foreground": "#7985bc",
+    "background": "#444b6a",
+    "foreground": "#cec8eb",
     "font-family": "Helvetica Neue Light, Helvetica, sans-serif",
     "font-size": "12px",
     "title-background": "#e5d5d9",
@@ -13,8 +13,8 @@
     "title-font-size": "18px",
     "project-background": "#e5d5d9",
     "project-foreground": "#c687ac",
-    "project-title-background": "#d3d7e9",
-    "project-title-foreground": "#7985bc"
+    "project-title-background": "#444b6a",
+    "project-title-foreground": "#cec8eb"
   },
   "materialTheme": {
     "palette": {
@@ -23,7 +23,7 @@
         "main": "#e5d5d9",
         "dark": "#033940",
         "light": "#19A699",
-        "contrastText": "#d3d7e9"
+        "contrastText": "#444b6a"
       },
       "secondary": {
         "main": "#BF4B43",
@@ -36,21 +36,21 @@
       },
       "error": {
         "main": "#d95a47",
-        "contrastText": "#d3d7e9"
+        "contrastText": "#444b6a"
       },
       "warning": {
         "main": "#F6A14C",
-        "contrastText": "#d3d7e9"
+        "contrastText": "#444b6a"
       },
       "info": {
         "main": "#016E85",
-        "contrastText": "#d3d7e9"
+        "contrastText": "#444b6a"
       },
       "success": {
         "main": "#40847D",
-        "contrastText": "#d3d7e9"
+        "contrastText": "#444b6a"
       },
-      "divider": "#7985bc",
+      "divider": "#cec8eb",
       "text": {
         "primary": "#000000",
         "secondary": "#000000",
@@ -63,7 +63,7 @@
     "overrides": {
       "MuiAppBar": {
         "colorInherit": {
-          "backgroundColor": "#d3d7e9",
+          "backgroundColor": "#444b6a",
           "color": "#fff"
         }
       }
@@ -95,7 +95,7 @@
     {
       "name": "SARS-CoV-2",
       "description": "Workflows for SARS-CoV-2 analysis",
-      "icon": "pangolin.png",
+      "icon": "sars-cov-2_icon.png",
       "workflows": [
         {
           "name": "pangolin-nf",
