@@ -8,11 +8,11 @@
     "font-family": "Helvetica Neue Light, Helvetica, sans-serif",
     "font-size": "12px",
     "title-background": "#e5d5d9",
-    "title-foreground": "#c687ac",
+    "title-foreground": "#444b6a",
     "title-font-family": "Helvetica Neue Thin, Helvetica, sans-serif",
     "title-font-size": "18px",
     "project-background": "#e5d5d9",
-    "project-foreground": "#c687ac",
+    "project-foreground": "#444b6a",
     "project-title-background": "#444b6a",
     "project-title-foreground": "#cec8eb"
   },
@@ -37,7 +37,7 @@
     {
       "name": "SARS-CoV-2",
       "description": "Workflows for SARS-CoV-2 analysis",
-      "icon": "sars-cov-2_icon.png",
+      "icon": "pangolin_logo.png",
       "scheme": {
         "project-foreground": "#444b6a"
       },
@@ -57,7 +57,11 @@
     {
       "name": "MPXV",
       "description": "Workflows for Mpox virus",
-      "icon": "mpxv.png",
+      "icon": "squirrel_logo.png",
+      "scheme": {
+        "project-foreground": "#20584e",
+        "project-background": "#dc968a"
+      },
       "workflows": [
         {
           "name": "squirrel-nf",
