@@ -16,64 +16,6 @@
     "project-title-background": "#444b6a",
     "project-title-foreground": "#cec8eb"
   },
-  "materialTheme": {
-    "palette": {
-      "mode": "light",
-      "primary": {
-        "main": "#e5d5d9",
-        "dark": "#033940",
-        "light": "#19A699",
-        "contrastText": "#444b6a"
-      },
-      "secondary": {
-        "main": "#BF4B43",
-        "light": "#E06961",
-        "contrastText": "#c687ac"
-      },
-      "background": {
-        "default": "#e6d595",
-        "paper": "#c687ac"
-      },
-      "error": {
-        "main": "#d95a47",
-        "contrastText": "#444b6a"
-      },
-      "warning": {
-        "main": "#F6A14C",
-        "contrastText": "#444b6a"
-      },
-      "info": {
-        "main": "#016E85",
-        "contrastText": "#444b6a"
-      },
-      "success": {
-        "main": "#40847D",
-        "contrastText": "#444b6a"
-      },
-      "divider": "#cec8eb",
-      "text": {
-        "primary": "#000000",
-        "secondary": "#000000",
-        "disabled": "#000000"
-      }
-    },
-    "typography": {
-      "fontFamily": "Open Sans"
-    },
-    "overrides": {
-      "MuiAppBar": {
-        "colorInherit": {
-          "backgroundColor": "#444b6a",
-          "color": "#fff"
-        }
-      }
-    },
-    "props": {
-      "MuiAppBar": {
-        "color": "inherit"
-      }
-    }
-  },
   "sections": [
     {
       "name": "phylogenetics",
@@ -96,6 +38,9 @@
       "name": "SARS-CoV-2",
       "description": "Workflows for SARS-CoV-2 analysis",
       "icon": "sars-cov-2_icon.png",
+      "scheme": {
+        "project-foreground": "#cec8eb"
+      },
       "workflows": [
         {
           "name": "pangolin-nf",
@@ -113,12 +58,6 @@
       "name": "MPXV",
       "description": "Workflows for Mpox virus",
       "icon": "mpxv.png",
-      "scheme": {
-        "project-background": "#c687ac",
-        "project-foreground": "#e5d5d9",
-        "project-title-background": "#BF4B43",
-        "project-title-foreground": "#E6D595"
-      },
       "workflows": [
         {
           "name": "squirrel-nf",
