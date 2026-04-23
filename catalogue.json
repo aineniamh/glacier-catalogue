@@ -39,7 +39,6 @@
       "description": "Workflows for SARS-CoV-2 analysis",
       "icon": "sars-cov-2_icon.png",
       "scheme": {
-        "project-background": "#cec8eb",
         "project-foreground": "#444b6a"
       },
       "workflows": [
